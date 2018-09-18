@@ -6,8 +6,8 @@ def long_description():
         readme = f.read()
     return readme
 
-setup(name='PyDropbox',
-      version='0.1',
+setup(name='pydropbox',
+      version='0.1.0',
       description='Simple Wrapper for Dropbox Python API',
       long_description=long_description(),
       url='https://github.com/j-min/pydropbox',
@@ -18,5 +18,6 @@ setup(name='PyDropbox',
       classifiers=[
           'Programming Language :: Python :: 3',
           'Programming Language :: Python :: 3.6',
+          'Programming Language :: Python :: 3.7',
           ],
       zip_safe=False)
